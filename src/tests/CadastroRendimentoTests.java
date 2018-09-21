@@ -13,6 +13,7 @@ public class CadastroRendimentoTests {
 		
 		boolean resposta = c.cadastrarRendimento(r);
 		
+		assertTrue(resposta);
 		assertEquals(1, c.getQtdTotalRendimentos());
 		assertEquals(4000.00f,c.getValorTotalRendimentos(),0);
 		
@@ -25,6 +26,7 @@ public class CadastroRendimentoTests {
 		
 		boolean resposta = c.cadastrarRendimento(r);
 		
+		assertTrue(resposta);
 		assertEquals(1, c.getQtdTotalRendimentos());
 		assertEquals(200.00f,c.getValorTotalRendimentos(),0);
 		

@@ -14,4 +14,12 @@ public class Rendimento {
 	public static Rendimento obterRendimento (String descricao, float valor, boolean isIsento) {
 		return new Rendimento(descricao,valor,isIsento);
 	}
+	
+	public boolean ehIsento() {
+		return isIsento;
+	}
+	
+	public float getValor() {
+		return valor;
+	}
 }
