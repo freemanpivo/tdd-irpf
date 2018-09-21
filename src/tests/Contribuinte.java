@@ -15,7 +15,7 @@ public class Contribuinte {
 	}
 
 	public int getQtdTotalRendimentos() {
-		return 1;
+		return rends.length;
 	}
 
 	public float getValorTotalRendimentos() {
